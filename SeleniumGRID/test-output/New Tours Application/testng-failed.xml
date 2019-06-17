@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [New Tours Application]">
+  <test name="LogIn">
+    <classes>
+      <class name="com.GRID.DataProvider_Grid"/>
+    </classes>
+  </test> <!-- LogIn -->
+  <test name="LogIn(failed)">
+    <classes>
+      <class name="com.GRID.DataProvider_Grid">
+        <methods>
+          <include name="LogInTest" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.GRID.DataProvider_Grid -->
+    </classes>
+  </test> <!-- LogIn(failed) -->
+</suite> <!-- Failed suite [New Tours Application] -->

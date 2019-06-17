@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [New Tours Application]" parallel="tests">
+  <test name="Log In Test">
+    <classes>
+      <class name="com.DataDriven.NewToursLogInTest"/>
+    </classes>
+  </test> <!-- Log In Test -->
+  <test name="Rsgistration Test">
+    <classes>
+      <class name="com.DataDriven.NewToursRegisterModelMultiDataTest"/>
+    </classes>
+  </test> <!-- Rsgistration Test -->
+</suite> <!-- Failed suite [New Tours Application] -->

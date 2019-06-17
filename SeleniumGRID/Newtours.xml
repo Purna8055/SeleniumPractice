@@ -1,0 +1,7 @@
+<suite name="New Tours Application">
+  <test name="LogIn">
+    <classes>
+       <class name="com.GRID.DataProvider_Grid"/>
+   </classes>
+  </test>
+</suite>

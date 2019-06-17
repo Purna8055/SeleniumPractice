@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHRM Application]">
+  <parameter name="Browser" value="chrome"/>
+  <test name="On Firefox">
+    <parameter name="Browser" value="firefox"/>
+    <classes>
+      <class name="com.GRID.OrangeHRM_LogInTest"/>
+    </classes>
+  </test> <!-- On Firefox -->
+  <test name="On Chrome">
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="com.GRID.OrangeHRM_LogInTest"/>
+    </classes>
+  </test> <!-- On Chrome -->
+</suite> <!-- Failed suite [OrangeHRM Application] -->

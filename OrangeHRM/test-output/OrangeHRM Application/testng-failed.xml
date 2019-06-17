@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHRM Application]">
+  <test name="LogIn">
+    <classes>
+      <class name="com.OrangeHRM.LogIn"/>
+    </classes>
+  </test> <!-- LogIn -->
+</suite> <!-- Failed suite [OrangeHRM Application] -->

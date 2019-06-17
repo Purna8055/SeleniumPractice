@@ -1,0 +1,44 @@
+package com.GRID;
+
+import java.io.IOException;
+import java.net.URL;
+
+import org.openqa.selenium.Platform;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+public class OrangeHRM_LogInTest 
+{
+@Parameters("Browser")
+@Test
+public void logIn(String browser) throws IOException
+{
+//Connecting to NODES
+ DesiredCapabilities cap = null;
+ System.out.println("The Browser name is: "+browser);
+ 
+ if(browser.equalsIgnoreCase("Firefox"))
+ {
+	 cap = DesiredCapabilities.firefox();
+	 cap.setBrowserName("Firefox");
+	 cap.setPlatform(Platform.WINDOWS);
+ }
+ else
+   if(browser.equalsIgnoreCase("Chrome"))
+   
+   {   cap = DesiredCapabilities.chrome();
+	   cap.setBrowserName("Chrome");
+	   cap.setPlatform(Platform.WINDOWS);
+   }
+ RemoteWebDriver driver = new RemoteWebDriver(new URL("http://172.20.10.6:4444/wd/hub"),cap);
+ System.setProperty("webdriver.gecko.driver","C:\\geckodriver.exe");
+ System.setProperty("webdriver.chrome.driver","C:\\chromedriver.exe");
+//Automation Test Script 
+ String url = "https://opensource-demo.orangehrmlive.com";
+driver.get(url);
+driver.quit();
+}
+
+}

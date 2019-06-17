@@ -1,0 +1,23 @@
+<suite name="New Tours Application">
+   
+    <test name="Log In Test">
+       
+        <classes>
+          
+          <class name="com.DataDriven.NewToursLogInTest"/>
+
+       </classes>
+
+   </test>
+     
+     <test name="Rsgistration Test">
+
+        <classes>
+
+           <class name="com.DataDriven.NewToursRegisterModelMultiDataTest"/>
+
+         </classes>
+     
+    </test>
+
+</suite>

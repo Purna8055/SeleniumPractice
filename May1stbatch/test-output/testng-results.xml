@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="New Tours Application" duration-ms="174193" started-at="2019-06-07T13:06:57Z" finished-at="2019-06-07T13:09:52Z">
+    <groups>
+    </groups>
+    <test name="Log In Test" duration-ms="45927" started-at="2019-06-07T13:06:57Z" finished-at="2019-06-07T13:07:43Z">
+      <class name="com.DataDriven.NewToursLogInTest">
+        <test-method status="PASS" signature="browserSetUp()[pri:0, instance:com.DataDriven.NewToursLogInTest@6ad5c04e]" name="browserSetUp" is-config="true" duration-ms="9071" started-at="2019-06-07T18:36:57Z" finished-at="2019-06-07T18:37:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method status="PASS" signature="logIn()[pri:0, instance:com.DataDriven.NewToursLogInTest@6ad5c04e]" name="logIn" duration-ms="36245" started-at="2019-06-07T18:37:07Z" finished-at="2019-06-07T18:37:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.DataDriven.NewToursLogInTest@6ad5c04e]" name="tearDown" is-config="true" duration-ms="610" started-at="2019-06-07T18:37:43Z" finished-at="2019-06-07T18:37:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.DataDriven.NewToursLogInTest -->
+    </test> <!-- Log In Test -->
+    <test name="Rsgistration Test" duration-ms="174193" started-at="2019-06-07T13:06:57Z" finished-at="2019-06-07T13:09:52Z">
+      <class name="com.DataDriven.NewToursRegisterModelMultiDataTest">
+        <test-method status="PASS" signature="browserSetUp()[pri:0, instance:com.DataDriven.NewToursRegisterModelMultiDataTest@66d33a]" name="browserSetUp" is-config="true" duration-ms="9271" started-at="2019-06-07T18:36:57Z" finished-at="2019-06-07T18:37:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method status="PASS" signature="registerLinkTest()[pri:0, instance:com.DataDriven.NewToursRegisterModelMultiDataTest@66d33a]" name="registerLinkTest" duration-ms="1006" started-at="2019-06-07T18:37:07Z" finished-at="2019-06-07T18:37:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerLinkTest -->
+        <test-method status="PASS" signature="registerationTest()[pri:1, instance:com.DataDriven.NewToursRegisterModelMultiDataTest@66d33a]" name="registerationTest" duration-ms="163304" started-at="2019-06-07T18:37:08Z" finished-at="2019-06-07T18:39:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerationTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.DataDriven.NewToursRegisterModelMultiDataTest@66d33a]" name="tearDown" is-config="true" duration-ms="608" started-at="2019-06-07T18:39:51Z" finished-at="2019-06-07T18:39:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.DataDriven.NewToursRegisterModelMultiDataTest -->
+    </test> <!-- Rsgistration Test -->
+  </suite> <!-- New Tours Application -->
+</testng-results>
